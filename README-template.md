@@ -28,16 +28,16 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2/hub/huddle-landing-page-with-curved-sections-with-tailwindcss-mz81oSGzV)
+- Live Site URL: [Add live site URL here](https://huddlecomty.netlify.app)
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS Grid
+- CSS Flex Box
 - Mobile-first workflow
 
 ## Author
 
-- Frontend Mentor - [@femibright](https://www.frontendmentor.io/profile/femibright)
+- Frontend Mentor - [@brightadigwe](https://www.frontendmentor.io/profile/brightadigwe)
 - Twitter - [@brightadigwe](https://www.twitter.com/brightadigwe
