@@ -140,7 +140,7 @@
     </section>
   </main>
 
-  <footer role="footer" class="">
+  <footer class="">
     <img src="./images/bg-footer-top-mobile.svg" class="w-full h-auto xl:hidden" alt="curve">
     <img src="./images/bg-footer-top-desktop.svg" class="w-full -mb-1 h-auto hidden xl:block" alt="curve">
     <div class="bg-cyan-dark text-white py-10 xl:py-20">
@@ -153,7 +153,8 @@
               send you spam or pass on your email address
             </p>
             <form class="pt-6 xl:flex xl:justify-between">
-              <input type="text" class="w-full xl:w-8/12 rounded-md bg-white p-3 mb-4">
+              <label for="email" class="hidden">Email</label>
+              <input type="text" id="email" class="w-full xl:w-8/12 rounded-md bg-white p-3 mb-4">
               <div class="flex justify-end xl:block xl:6/12">
                 <button class="text-white inline-block bg-pink hover:bg-pink-light px-8 py-3 font-semibold text-xs xl:text-base rounded-md">Subscribe</button>
               </div>
