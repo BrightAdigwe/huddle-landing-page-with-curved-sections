@@ -14,133 +14,135 @@
 
 </head>
 <body class="font-body">
-  <header class="py-5 xl:py-16">
+  <header role="navigation" class="py-5 xl:py-16">
     <div class="container px-6 xl:px-10 mx-auto">
       <div class="flex justify-between items-center">
         <div class="">
-          <a href="">
+          <a href="#" aria-label="homepage">
             <img src="./images/logo.svg" class="h-4 xl:h-10" alt="Huddle logo">
           </a>
         </div>
 
         <div class="">
-          <a href="" class="text-pink hover:text-pink-light hover:shadow hover:shadow-pink-light inline-block border border-pink hover:border-pink-light px-6 xl:px-8 py-1.5 xl:py-3 text-xs xl:text-base rounded-full">Try it free</a>
+          <a href="" aria-label="Try free for 3 months" class="text-pink hover:text-pink-light hover:shadow hover:shadow-pink-light inline-block border border-pink hover:border-pink-light px-6 xl:px-8 py-1.5 xl:py-3 text-xs xl:text-base rounded-full">Try it free</a>
         </div>
       </div>
     </div>
   </header>
 
-  <section class="hero pt-24 xl:pt-32 text-center mb-[6rem] xl:mb-[12rem]">
-    <div class="container px-6 mx-auto">
-      <h2 class="font-heading leading-relaxed text-2xl xl:text-[44px] xl:mb-8 font-bold mb-4 text-cyan-dark">Build The Community Your Fans Will Love</h2>
-      <p class="text-cyan-dark text-sm xl:text-lg xl:leading-normal xl:w-1/2 xl:mx-auto font-body font-semibold leading-relaxed mb-10">
-        Huddle re-imagines the way we build communities. You have a voice, but so does 
-        your audience. Create connections with your users as you engage in genuine discussion.
-      </p>
-      <a href="" class="text-white shadow-lg inline-block bg-pink hover:bg-pink-light px-8 xl:px-20 py-3 xl:py-5 font-semibold text-xs xl:text-base rounded-full">Get Started For Free</a>
-    </div>
-  </section>
+  <main role="main">
+    <section role="banner" class="hero pt-24 xl:pt-32 text-center mb-[6rem] xl:mb-[12rem]">
+      <div class="container px-6 mx-auto">
+        <h2 class="font-heading leading-relaxed text-2xl xl:text-[44px] xl:mb-8 font-bold mb-4 text-cyan-dark">Build The Community Your Fans Will Love</h2>
+        <p class="text-cyan-dark text-sm xl:text-lg xl:leading-normal xl:w-1/2 xl:mx-auto font-body font-semibold leading-relaxed mb-10">
+          Huddle re-imagines the way we build communities. You have a voice, but so does 
+          your audience. Create connections with your users as you engage in genuine discussion.
+        </p>
+        <a href="" aria-label="try free for 3 months" class="text-white shadow-lg inline-block bg-pink hover:bg-pink-light px-8 xl:px-20 py-3 xl:py-5 font-semibold text-xs xl:text-base rounded-full">Get Started For Free</a>
+      </div>
+    </section>
   
-  <section class="mb-[6rem]">
-    <div class="container px-6 mx-auto">
-      <img src="./images/screen-mockups.svg" alt="" class="w-full xl:w-8/12 xl:mx-auto h-auto px-3">
-    </div>
-  </section>
-
-  <section class="mb-[6rem]">
-    <div class="flex flex-wrap  xl:w-8/4 xl:mx-auto">
-      <div class="flex justify-center mb-[6rem] w-full xl:w-1/2">
-        <div class="text-center">
-          <img src="./images/icon-communities.svg" class="h-6" alt="">
-          <p class="text-cyan-dark font-bold text-[4rem] xl:text-[6rem] leading-none mb-3">1.4k+</p>
-          <p class="text-gray-500">Communities Formed</p>
-        </div>
+    <section class="mb-[6rem]">
+      <div class="container px-6 mx-auto">
+        <img src="./images/screen-mockups.svg" alt="screen-mockups" class="w-full xl:w-8/12 xl:mx-auto h-auto px-3">
       </div>
-      <div class="flex justify-center w-full xl:w-1/2">
-        <div class="text-center">
-          <img src="./images/icon-messages.svg" class=" h-6" alt="">
-          <p class="text-cyan-dark font-bold text-[4rem] xl:text-[6rem] leading-none mb-3">2.7m+</p>
-          <p class="text-gray-500">Messages Sent</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="mb-[6rem]">
-    <img src="./images/bg-section-top-mobile-1.svg" class="w-full h-auto xl:hidden" alt="">
-    <img src="./images/bg-section-top-desktop-1.svg" class="w-full h-auto hidden xl:block" alt="">
-    <div class="bg-blue-pale py-10">
-      <div class="container px-6 xl:px-20 mx-auto">
-        <div class="flex flex-wrap xl:flex-row-reverse xl:items-center">
-          <div class="xl:w-1/2 xl:px-16">
-            <img src="./images/illustration-grow-together.svg" class="w-full h-auto mb-6" alt="">
+    <section class="mb-[6rem]">
+      <div class="flex flex-wrap  xl:w-8/4 xl:mx-auto">
+        <div class="flex justify-center mb-[6rem] w-full xl:w-1/2">
+          <div class="text-center">
+            <img src="./images/icon-communities.svg" class="h-6" alt="communities icon">
+            <p class="text-cyan-dark font-bold text-[4rem] xl:text-[6rem] leading-none mb-3">1.4k+</p>
+            <p class="text-gray-500">Communities Formed</p>
           </div>
-          <div class="text-center xl:text-left xl:w-1/2">
-            <h3 class="font-heading leading-relaxed text-xl xl:text-4xl font-bold mb-4 text-cyan-dark">Grow Together</h3>
-            <p class="text-cyan-dark text-sm xl:text-base font-body font-semibold leading-relaxed xl:w-11/12">
-              Generate meaningful discussions with your audience and build a strong, loyal community. 
-              Think of the insightful conversations you miss out on with a feedback form.
-            </p>
+        </div>
+        <div class="flex justify-center w-full xl:w-1/2">
+          <div class="text-center">
+            <img src="./images/icon-messages.svg" class=" h-6" alt="message icon">
+            <p class="text-cyan-dark font-bold text-[4rem] xl:text-[6rem] leading-none mb-3">2.7m+</p>
+            <p class="text-gray-500">Messages Sent</p>
           </div>
         </div>
       </div>
-    </div>
-    <img src="./images/bg-section-bottom-mobile-1.svg" class="w-full h-auto xl:hidden" alt="">
-    <img src="./images/bg-section-bottom-desktop-1.svg" class="w-full h-auto hidden xl:block" alt="">
-  </section>
+    </section>
 
-  <section class="mb-[6rem]">
-    <div class="py-10">
-      <div class="container px-6 xl:px-20 mx-auto">
-        <div class="flex flex-wrap xl:items-center">
-          <div class="xl:w-1/2 xl:px-16">
-            <img src="./images/illustration-flowing-conversation.svg" class="w-full h-auto mb-6" alt="">
-          </div>
-          <div class="text-center xl:text-left xl:w-1/2">
-            <h3 class="font-heading leading-relaxed text-xl xl:text-4xl font-bold mb-4 text-cyan-dark">Flowing Conversations</h3>
-            <p class="text-cyan-dark text-sm xl:text-base font-body font-semibold leading-relaxed xl:w-11/12">
-              You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-              just-in-time loading for a more natural flow.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="mb-[6rem]">
-    <img src="./images/bg-section-top-mobile-2.svg" class="w-full h-auto xl:hidden" alt="">
-    <img src="./images/bg-section-top-desktop-2.svg" class="w-full h-auto hidden xl:block" alt="">
-    <div class="bg-blue-pale py-10">
-      <div class="container px-6 xl:px-20 mx-auto">
-        <div class="flex flex-wrap xl:flex-row-reverse xl:items-center">
-          <div class="xl:w-1/2 xl:px-16">
-            <img src="./images/illustration-your-users.svg" class="w-full h-auto mb-6" alt="">
-          </div>
-          <div class="text-center xl:text-left xl:w-1/2">
-            <h3 class="font-heading leading-relaxed text-xl xl:text-4xl font-bold mb-4 text-cyan-dark">Your Users</h3>
-            <p class="text-cyan-dark text-sm xl:text-base font-body font-semibold leading-relaxed xl:w-11/12">
-              It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-              once signed in to your app, your users can start chatting immediately.
-            </p>
+    <section class="mb-[6rem]">
+      <img src="./images/bg-section-top-mobile-1.svg" class="w-full h-auto xl:hidden" alt="curve">
+      <img src="./images/bg-section-top-desktop-1.svg" class="w-full h-auto hidden xl:block" alt="curve">
+      <div class="bg-blue-pale py-10">
+        <div class="container px-6 xl:px-20 mx-auto">
+          <div class="flex flex-wrap xl:flex-row-reverse xl:items-center">
+            <div class="xl:w-1/2 xl:px-16">
+              <img src="./images/illustration-grow-together.svg" class="w-full h-auto mb-6" alt="grow together illustration">
+            </div>
+            <div class="text-center xl:text-left xl:w-1/2">
+              <h3 class="font-heading leading-relaxed text-xl xl:text-4xl font-bold mb-4 text-cyan-dark">Grow Together</h3>
+              <p class="text-cyan-dark text-sm xl:text-base font-body font-semibold leading-relaxed xl:w-11/12">
+                Generate meaningful discussions with your audience and build a strong, loyal community. 
+                Think of the insightful conversations you miss out on with a feedback form.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <img src="./images/bg-section-bottom-mobile-2.svg" class="w-full h-auto xl:hidden" alt="">
-    <img src="./images/bg-section-bottom-desktop-2.svg" class="w-full h-auto hidden xl:block" alt="">
-  </section>
+      <img src="./images/bg-section-bottom-mobile-1.svg" class="w-full h-auto xl:hidden" alt="curve">
+      <img src="./images/bg-section-bottom-desktop-1.svg" class="w-full h-auto hidden xl:block" alt="curve">
+    </section>
 
-  <section class="mb-[12rem]">
-    <div class="container text-center px-6 mx-auto">
-      <h2 class="font-heading leading-relaxed text-2xl xl:text-[40px] font-bold mb-4 text-cyan-dark">Ready To Build Your Community?</h2>
-      <a href="" class="text-white shadow-lg inline-block bg-pink hover:bg-pink-light px-8 xl:px-20 py-3 xl:py-5 font-semibold text-xs xl:text-base rounded-full">Get Started For Free</a>
-    </div>
-  </section>
+    <section class="mb-[6rem]">
+      <div class="py-10">
+        <div class="container px-6 xl:px-20 mx-auto">
+          <div class="flex flex-wrap xl:items-center">
+            <div class="xl:w-1/2 xl:px-16">
+              <img src="./images/illustration-flowing-conversation.svg" class="w-full h-auto mb-6" alt="flowing convo illustration">
+            </div>
+            <div class="text-center xl:text-left xl:w-1/2">
+              <h3 class="font-heading leading-relaxed text-xl xl:text-4xl font-bold mb-4 text-cyan-dark">Flowing Conversations</h3>
+              <p class="text-cyan-dark text-sm xl:text-base font-body font-semibold leading-relaxed xl:w-11/12">
+                You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+                just-in-time loading for a more natural flow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <footer class="">
-    <img src="./images/bg-footer-top-mobile.svg" class="w-full h-auto xl:hidden" alt="">
-    <img src="./images/bg-footer-top-desktop.svg" class="w-full -mb-1 h-auto hidden xl:block" alt="">
+    <section class="mb-[6rem]">
+      <img src="./images/bg-section-top-mobile-2.svg" class="w-full h-auto xl:hidden" alt="curve">
+      <img src="./images/bg-section-top-desktop-2.svg" class="w-full h-auto hidden xl:block" alt="curve">
+      <div class="bg-blue-pale py-10">
+        <div class="container px-6 xl:px-20 mx-auto">
+          <div class="flex flex-wrap xl:flex-row-reverse xl:items-center">
+            <div class="xl:w-1/2 xl:px-16">
+              <img src="./images/illustration-your-users.svg" class="w-full h-auto mb-6" alt="users illustration">
+            </div>
+            <div class="text-center xl:text-left xl:w-1/2">
+              <h3 class="font-heading leading-relaxed text-xl xl:text-4xl font-bold mb-4 text-cyan-dark">Your Users</h3>
+              <p class="text-cyan-dark text-sm xl:text-base font-body font-semibold leading-relaxed xl:w-11/12">
+                It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+                once signed in to your app, your users can start chatting immediately.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./images/bg-section-bottom-mobile-2.svg" class="w-full h-auto xl:hidden" alt="curve">
+      <img src="./images/bg-section-bottom-desktop-2.svg" class="w-full h-auto hidden xl:block" alt="curve">
+    </section>
+
+    <section class="mb-[12rem]">
+      <div class="container text-center px-6 mx-auto">
+        <h2 class="font-heading leading-relaxed text-2xl xl:text-[40px] font-bold mb-4 text-cyan-dark">Ready To Build Your Community?</h2>
+        <a href="" aria-label="try free for 3 months" class="text-white shadow-lg inline-block bg-pink hover:bg-pink-light px-8 xl:px-20 py-3 xl:py-5 font-semibold text-xs xl:text-base rounded-full">Get Started For Free</a>
+      </div>
+    </section>
+  </main>
+
+  <footer role="footer" class="">
+    <img src="./images/bg-footer-top-mobile.svg" class="w-full h-auto xl:hidden" alt="curve">
+    <img src="./images/bg-footer-top-desktop.svg" class="w-full -mb-1 h-auto hidden xl:block" alt="curve">
     <div class="bg-cyan-dark text-white py-10 xl:py-20">
       <div class="container px-6 xl:px-32 mx-auto">
         <div class="flex flex-wrap xl:justify-between xl:flex-row-reverse">
@@ -153,7 +155,7 @@
             <form class="pt-6 xl:flex xl:justify-between">
               <input type="text" class="w-full xl:w-8/12 rounded-md bg-white p-3 mb-4">
               <div class="flex justify-end xl:block xl:6/12">
-                <a href="" class="text-white inline-block bg-pink hover:bg-pink-light px-8 py-3 font-semibold text-xs xl:text-base rounded-md">Subscribe</a>
+                <button class="text-white inline-block bg-pink hover:bg-pink-light px-8 py-3 font-semibold text-xs xl:text-base rounded-md">Subscribe</button>
               </div>
             </form>
           </div>
@@ -168,25 +170,25 @@
             </div>
 
             <div class="flex items-center space-x-5 mb-3">
-              <img src="./images/icon-phone.svg" alt="">
+              <img src="./images/icon-phone.svg" alt="phone icon">
               <p class="text-sm">Phone: +1-543-123-4567</p>
             </div>
 
             <div class="flex items-center space-x-5 mb-8">
-              <img src="./images/icon-email.svg" alt="">
+              <img src="./images/icon-email.svg" alt="email icon">
               <p class="text-sm">example@huddle.com</p>
             </div>
 
             <div class="space-x-2 flex items-center">
-              <a href=""><img class="-ml-2" src="https://img.icons8.com/fluency/48/000000/facebook.png"/></a>
-              <a href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>
-              <a href=""><img src="https://img.icons8.com/doodle/48/000000/twitter--v1.png"/></a>
+              <a aria-label="Visit our Facebook page" href=""><img class="-ml-2" src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="facebook icon"/></a>
+              <a aria-label="Visit our Instagram page" href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="instagram icon"/></a>
+              <a aria-label="Visit our Twitter page" href=""><img src="https://img.icons8.com/doodle/48/000000/twitter--v1.png" alt="instagram icon"/></a>
             </div>
           </div>
         </div>
 
         <p class="attribution pt-6 text-center">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" aria-label="Check out frontendmentor website" target="_blank">Frontend Mentor</a>. 
           Coded by <a href="https://www.twitter.com/brightadigwe" class="underline">Bright</a>.
         </p>
       </div>
